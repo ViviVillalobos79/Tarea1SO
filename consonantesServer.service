@@ -1,0 +1,10 @@
+[Unit]
+Description=Cuenta consonantes de un texto
+
+[Service]
+Type=simple
+ExecStart=/bin/bash /home/viviana/Tarea/./main
+Restart=always
+
+[Install]
+WantedBy=multi-user.target

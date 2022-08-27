@@ -1,0 +1,10 @@
+[Unit]
+Description=Image Server Aplication HTTP server
+ 
+[Service]
+Type=simple
+ExecStart=/home/viviana/Tarea/./main
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
